@@ -1,9 +1,9 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/JosefinSans-Medium.ttf);
+}
 
-//@include font-face(JosefinSans-Medium, './assets/fonts/JosefinSans-Medium');
-//@font-face {font-family: "font-1"; src: url("/assets/fonts/JosefinSans-Medium.ttf") format("truetype");}
-
-
-$font-1: arial, sans-serif;
+$font-1: "font-1", sans-serif;
 
 $color-1: #61dafb;
 $color-2: salmon;

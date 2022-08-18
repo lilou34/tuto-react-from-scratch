@@ -1,23 +1,4 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "./pages/About";
-import Home from "./pages/Home";
-//const sass = require('sass');
-const App = () => {
-  return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="*" element={<Home />} />
-    </Routes>
-  </BrowserRouter>
-  );
-};
-
-export default App;
-
-/*import React from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -28,11 +9,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {path="*" fonctionne si jamais l'url ne correspond à rien de déclaré au dessus }
-        <Route path="*" element={<Home />} />// retour à la page accueil si l'user tape n'importe quoi dans le chemin de la barre d'adresse
+        {/* path="*" fonctionne si jamais l'url ne correspond à rien de déclaré au dessus */}
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
 };
 
-export default App;*/
+export default App;
